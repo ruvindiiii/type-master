@@ -116,6 +116,7 @@ export default function Home() {
 
     window.addEventListener("keydown", handleGlobalKeyDown);
     return () => window.removeEventListener("keydown", handleGlobalKeyDown);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const fetchNewText = async () => {
@@ -254,7 +255,6 @@ export default function Home() {
 
           <ResultsModal
             isOpen={showResults}
-            onClose={() => setShowResults(false)}
             wpm={wpm}
             accuracy={accuracy}
             time={elapsedTime}

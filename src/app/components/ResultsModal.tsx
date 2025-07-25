@@ -2,7 +2,6 @@
 
 interface ResultsModalProps {
   isOpen: boolean;
-  onClose: () => void;
   wpm: number;
   accuracy: number;
   time: number;
@@ -13,7 +12,6 @@ interface ResultsModalProps {
 
 export default function ResultsModal({ 
   isOpen, 
-  onClose, 
   wpm, 
   accuracy, 
   time, 
