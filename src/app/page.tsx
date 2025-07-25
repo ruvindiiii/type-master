@@ -186,7 +186,7 @@ export default function Home() {
         <div className="container mx-auto px-4 py-8">
           <header className="text-center mb-12 animate-slide-up">
             <h1 className="text-6xl font-bold mb-4">
-              <span className="gradient-text">TypeMaster</span>
+              <span className="gradient-text">Type Test</span>
             </h1>
             <p className="text-gray-600 dark:text-gray-400 text-lg">
               Elevate your typing skills with our modern practice platform

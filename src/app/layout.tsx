@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "TypeMaster Pro - Modern Typing Practice",
+  title: "Type Test - Modern Typing Practice",
   description: "Improve your typing speed and accuracy with our modern typing practice app",
 };
 
