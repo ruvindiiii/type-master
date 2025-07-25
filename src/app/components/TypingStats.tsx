@@ -23,7 +23,7 @@ export default function TypingStats({ wpm, accuracy, time, wordsTyped }: TypingS
           className="glass rounded-2xl p-6 min-w-[140px] hover:scale-105 transition-all duration-300 animate-slide-up"
           style={{ animationDelay: `${index * 0.1}s` }}
         >
-          <div className="flex items-center justify-between mb-2">
+          <div className="flex items-center gap-2 mb-2">
             <h3 className="text-gray-400 text-xs font-medium uppercase tracking-wider">{stat.label}</h3>
             <span className="text-lg">{stat.icon}</span>
           </div>
